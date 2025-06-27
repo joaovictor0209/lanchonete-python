@@ -1,0 +1,1 @@
+{'cod': '100', 'name': 'Pão de Queijo', 'description': 'Pão de Queijo bem gostoso.', 'category': 'Pães', 'amount': 10, 'price': 2.0, 'supplier': 'Pães ZN', 'expiration': '20/12/2026', 'date_post': '27/06/2025', 'hour_post': '11:06'}

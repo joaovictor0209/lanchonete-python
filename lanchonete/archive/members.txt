@@ -1,0 +1,1 @@
+{'cod': '100', 'name': 'João Victor Alexandre Almeida', 'login': 'joaoadmin@', 'password': 'joaoadmin@', 'carg': 'admin', 'date_create': '09/06/2025', 'hour_create': '13:39'}

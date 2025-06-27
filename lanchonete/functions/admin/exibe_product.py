@@ -1,0 +1,28 @@
+def exibe_product(product: dict):
+    print("╔══════════════════════════════════════════════════════════════════════════╗")
+    print("║             I N F O R M A Ç Õ E S   D O   P R O D U T O                  ║")
+    print("╠══════════════════════════════════════════════════════════════════════════╣")
+    print(f"║ 🔑 🗝️   CÓDIGO                         : {product["cod"]:<33}║")
+    print(f"║ 📦 🧾  NOME  DO  PRODUTO              : {product["name"]:<33}║")
+    print(f"║ 📝 🔍  DESCRIÇÃO  DO  PRODUTO         : {product["description"]:<33}║")
+    print(f"║ 🗂️  📁  CATEGORIA  DO  PRODUTO         : {product["category"]:<33}║")
+    print(f"║ 📊 📦  QUANTIDADE  NO  ESTOQUE        : {product["amount"]:<33}║")
+    print(f"║ 💲 🏷️   PREÇO  UNITÁRIO                : R${product["price"]:<31}║")
+    print(f"║ 🚚 🏭  FORNECEDOR                     : {product["supplier"]:<33}║")
+    print(f"║ 📅 ⏳  DATA  DE  VALIDADE             : {product["expiration"]:<33}║")
+    print(f"║ 🕒 🗓️   DATA  /  HORA                  : {product["date_post"]} - {product["hour_post"]:<20}║")
+    print("╠══════════════════════════════════════════════════════════════════════════╣\n\n")
+    
+    
+def exibe_stock(product: dict):
+    print("╔══════════════════════════════════════════════════════════════════════════╗")
+    print("║             I N F O R M A Ç Õ E S   D O   P R O D U T O                  ║")
+    print("╠══════════════════════════════════════════════════════════════════════════╣")
+    print(f"║ 🔑 🗝️   CÓDIGO                         : {product["cod"]:<33}║")
+    print(f"║ 📦 🧾  NOME  DO  PRODUTO              : {product["name"]:<33}║")
+    print(f"║ 🗂️  📁  CATEGORIA  DO  PRODUTO         : {product["category"]:<33}║")
+    print(f"║ 📊 📦  QUANTIDADE  NO  ESTOQUE        : {product["amount"]:<33}║")
+    print(f"║ 💲 🏷️   PREÇO  UNITÁRIO                : R${product["price"]:<31}║")
+    print(f"║ 📅 ⏳  DATA  DE  VALIDADE             : {product["expiration"]:<33}║")
+    print(f"║ 🕒 🗓️   DATA  /  HORA                  : {product["date_post"]} - {product["hour_post"]:<20}║")
+    print("╠══════════════════════════════════════════════════════════════════════════╣\n\n")
