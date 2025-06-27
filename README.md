@@ -56,7 +56,7 @@ lanchonete/
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seuusuario/lanchonete.git
+git clone https://github.com/joaovictor0209/lanchonete.git
 cd lanchonete
 ```
 
@@ -82,7 +82,7 @@ pip install pygame
 ### 3. Execute o sistema
 
 ```bash
-python __APP__.py
+python __app__.py
 ```
 
 ---
