@@ -6,7 +6,7 @@ Este projeto é um sistema de gerenciamento para uma lanchonete, desenvolvido co
 
 ## 🎯 Objetivo do Projeto
 
-O objetivo é fornecer uma aplicação simples, funcional e modularizada para auxiliar no gerenciamento de uma lanchonete, sem a necessidade de banco de dados, utilizando arquivos .txt para persistência dos dados.
+O objetivo é fornecer uma aplicação simples, funcional e modularizada para auxiliar no gerenciamento de uma lanchonete, sem a necessidade de banco de dados, utilizando arquivos `.txt` para persistência dos dados.
 
 ---
 
@@ -35,7 +35,7 @@ O objetivo é fornecer uma aplicação simples, funcional e modularizada para au
 
 ## 🏗️ Estrutura do Projeto
 
-bash
+```bash
 lanchonete/
 ├── archive/                # Arquivos com histórico, produtos e membros
 ├── const/                  # (Reservado para constantes e configurações)
@@ -47,7 +47,7 @@ lanchonete/
 ├── __APP__.py              # Arquivo principal do sistema
 ├── requirements.txt        # Bibliotecas necessárias
 └── README.md               # Instruções e informações do projeto
-
+```
 
 ---
 
@@ -55,10 +55,10 @@ lanchonete/
 
 ### 1. Clone o repositório
 
-bash
+```bash
 git clone https://github.com/seuusuario/lanchonete.git
 cd lanchonete
-
+```
 
 ### 2. Instale as dependências
 
@@ -68,22 +68,22 @@ O projeto utiliza as seguintes bibliotecas externas:
 
 Para instalar todas as dependências, execute:
 
-bash
+```bash
 pip install questionary pygame
-
+```
 
 Ou instale manualmente uma por uma:
 
-bash
+```bash
 pip install questionary
 pip install pygame
-
+```
 
 ### 3. Execute o sistema
 
-bash
-python __app__.py
-
+```bash
+python __APP__.py
+```
 
 ---
 
